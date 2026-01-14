@@ -159,47 +159,45 @@
     "packages": [
       {
         "name": "Starter",
-        "price": "Vanaf €695",
-        "description": "Ideaal om snel online te gaan met een professionele, overzichtelijke website.",
-        "timeline": "1-2 weken",
+        "price": "Vanaf €495",
+        "description": "Snel online met een verzorgde, professionele website.",
+        "timeline": "1 week",
         "features": [
-          "One-page of eenvoudige website",
+          "One-page website",
           "Responsive design",
           "Contactformulier",
-          "Basis SEO-instellingen",
-          "Snelle laadtijden",
-          "1 revisieronde"
+          "Snelle laadtijden"
         ],
         "cta": "Start je project"
       },
       {
         "name": "Groei",
-        "price": "Vanaf €1.395",
-        "description": "Een complete website met meerdere pagina's en een stevige basis voor groei.",
-        "timeline": "2-3 weken",
+        "price": "Vanaf €995",
+        "description": "Een complete website met meerdere pagina's en ruimte om te groeien.",
+        "timeline": "1–2 weken",
         "features": [
-          "4-6 pagina's",
-          "Duidelijke structuur en navigatie",
-          "Basis SEO-optimalisatie",
+          "Tot 5 pagina's",
+          "Overzichtelijke structuur",
+          "Basis SEO-instellingen",
           "Contactformulier",
-          "WordPress of statisch (naar wens)",
-          "2 revisierondes"
+          "WordPress of statisch",
+          "1 revisieronde"
         ],
         "cta": "Bespreek mogelijkheden",
         "popular": true
       },
       {
         "name": "Premium",
-        "price": "€2.495+",
-        "description": "Voor projecten die net wat extra's nodig hebben: maatwerk, integraties of extra aandacht.",
-        "timeline": "3-5 weken",
+        "price": "€1.750+",
+        "description": "Extra aandacht voor ontwerp, snelheid en optionele integraties.",
+        "timeline": "2–4 weken",
         "features": [
-          "Custom secties en ontwerp",
-          "Lichte integraties (bijv. boekingstool)",
+          "Maatwerk design",
+          "Lichte integraties mogelijk",
           "Performance optimalisatie",
-          "Extra revisierondes",
-          "SEO en analytics setup",
-          "2 weken support na oplevering"
+          "Meerdere revisierondes",
+          "SEO-basis en analytics",
+          "Korte support na oplevering"
         ],
         "cta": "Plan een gesprek"
       }
@@ -218,11 +216,11 @@
         },
         {
           "question": "Hoe lang duurt een project?",
-          "answer": "Dit hangt af van de complexiteit. Een Starter-project duurt gemiddeld 1-2 weken, een Groei-project 2-3 weken. Voor Premium-projecten rekenen we 3-5 weken."
+          "answer": "Dit hangt af van de omvang. Een Starter-project is vaak binnen een week klaar, een Groei-project in 1–2 weken. Premium-projecten duren gemiddeld 2–4 weken."
         },
         {
           "question": "Moet ik alles vooraf betalen?",
-          "answer": "Nee. Ik werk met een aanbetaling van 40% bij start en 60% bij oplevering. Voor grotere projecten kunnen we een betalingsschema afspreken."
+          "answer": "Nee. Ik werk met een aanbetaling van 50% bij start en 50% bij oplevering. Zo is het voor ons allebei overzichtelijk."
         },
         {
           "question": "Kan ik de website zelf aanpassen na oplevering?",
