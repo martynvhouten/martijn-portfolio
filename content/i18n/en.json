@@ -1,0 +1,110 @@
+{
+  "meta": {
+    "siteTitle": "",
+    "siteDescription": ""
+  },
+  "nav": {
+    "home": "",
+    "work": "",
+    "about": "",
+    "contact": ""
+  },
+  "hero": {
+    "headline": "",
+    "subtext": "",
+    "cta": {
+      "primary": "",
+      "secondary": ""
+    }
+  },
+  "selectedWork": {
+    "title": "",
+    "subtitle": "",
+    "viewAll": ""
+  },
+  "services": {
+    "title": "",
+    "subtitle": "",
+    "items": []
+  },
+  "process": {
+    "title": "",
+    "subtitle": "",
+    "steps": []
+  },
+  "techStack": {
+    "title": "",
+    "subtitle": "",
+    "items": []
+  },
+  "aboutTeaser": {
+    "title": "",
+    "text": "",
+    "cta": ""
+  },
+  "contactCTA": {
+    "title": "",
+    "text": "",
+    "cta": ""
+  },
+  "work": {
+    "title": "",
+    "subtitle": "",
+    "filterAll": "",
+    "noResults": ""
+  },
+  "project": {
+    "backToWork": "",
+    "role": "",
+    "period": "",
+    "stack": "",
+    "challenge": "",
+    "solution": "",
+    "highlights": "",
+    "gallery": "",
+    "nextProject": "",
+    "cta": {
+      "title": "",
+      "text": "",
+      "button": ""
+    }
+  },
+  "about": {
+    "title": "",
+    "intro": "",
+    "bio": [],
+    "skills": {
+      "title": "",
+      "items": []
+    },
+    "cta": {
+      "title": "",
+      "button": ""
+    }
+  },
+  "contact": {
+    "title": "",
+    "subtitle": "",
+    "form": {
+      "name": "",
+      "namePlaceholder": "",
+      "email": "",
+      "emailPlaceholder": "",
+      "message": "",
+      "messagePlaceholder": "",
+      "submit": ""
+    },
+    "success": {
+      "title": "",
+      "text": ""
+    },
+    "info": {
+      "email": "",
+      "social": ""
+    }
+  },
+  "footer": {
+    "copyright": "",
+    "madeWith": ""
+  }
+}

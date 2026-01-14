@@ -1,0 +1,155 @@
+{
+  "meta": {
+    "siteTitle": "Martijn van Houten | Webontwikkelaar",
+    "siteDescription": "Ik ontwerp en bouw moderne, snelle websites die resultaat opleveren. Van concept tot livegang."
+  },
+  "nav": {
+    "home": "Home",
+    "work": "Werk",
+    "about": "Over mij",
+    "contact": "Contact"
+  },
+  "hero": {
+    "headline": "Websites die werken.",
+    "subtext": "Ik ontwerp en ontwikkel moderne, snelle websites die jouw doelen bereiken. Van eerste schets tot succesvolle lancering.",
+    "cta": {
+      "primary": "Bekijk werk",
+      "secondary": "Neem contact op"
+    }
+  },
+  "selectedWork": {
+    "title": "Geselecteerd werk",
+    "subtitle": "Een selectie van recente projecten waar ik trots op ben.",
+    "viewAll": "Bekijk alle projecten"
+  },
+  "services": {
+    "title": "Wat ik doe",
+    "subtitle": "Van strategie tot uitvoering — ik help je bij elke stap.",
+    "items": [
+      {
+        "title": "Webdesign",
+        "description": "Strak, modern ontwerp dat past bij jouw merk. Responsive en gebruiksvriendelijk."
+      },
+      {
+        "title": "Webontwikkeling",
+        "description": "Technisch solide websites gebouwd met de nieuwste technologieën. Snel en schaalbaar."
+      },
+      {
+        "title": "Optimalisatie",
+        "description": "SEO, performance en toegankelijkheid. Jouw website scoort hoog en laadt snel."
+      }
+    ]
+  },
+  "process": {
+    "title": "Werkwijze",
+    "subtitle": "Een helder proces van begin tot eind.",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Kennismaking",
+        "description": "We bespreken jouw wensen, doelen en planning."
+      },
+      {
+        "number": "02",
+        "title": "Design",
+        "description": "Ik ontwerp een visueel concept op maat."
+      },
+      {
+        "number": "03",
+        "title": "Bouw",
+        "description": "Het ontwerp wordt omgezet naar een werkende website."
+      },
+      {
+        "number": "04",
+        "title": "Livegang",
+        "description": "Testen, finetunen en live zetten. Klaar voor succes."
+      }
+    ]
+  },
+  "techStack": {
+    "title": "Technologie",
+    "subtitle": "Moderne tools voor moderne websites.",
+    "items": ["Next.js", "React", "TypeScript", "Tailwind CSS", "Node.js", "PostgreSQL", "Vercel", "Figma"]
+  },
+  "aboutTeaser": {
+    "title": "Over mij",
+    "text": "Ik ben Martijn, een ervaren webontwikkelaar met een passie voor strak design en schone code. Ik help ondernemers en bedrijven met websites die niet alleen mooi zijn, maar ook resultaat opleveren.",
+    "cta": "Lees meer"
+  },
+  "contactCTA": {
+    "title": "Laten we samenwerken",
+    "text": "Heb je een project in gedachten? Ik hoor graag van je.",
+    "cta": "Neem contact op"
+  },
+  "work": {
+    "title": "Alle projecten",
+    "subtitle": "Een overzicht van mijn werk.",
+    "filterAll": "Alles",
+    "noResults": "Geen projecten gevonden met deze filter."
+  },
+  "project": {
+    "backToWork": "← Terug naar projecten",
+    "role": "Rol",
+    "period": "Periode",
+    "stack": "Technologie",
+    "challenge": "De uitdaging",
+    "solution": "De oplossing",
+    "highlights": "Resultaten",
+    "gallery": "Beelden",
+    "nextProject": "Volgend project",
+    "cta": {
+      "title": "Interesse in een soortgelijk project?",
+      "text": "Laten we bespreken hoe ik jou kan helpen.",
+      "button": "Neem contact op"
+    }
+  },
+  "about": {
+    "title": "Over mij",
+    "intro": "Hoi, ik ben Martijn.",
+    "bio": [
+      "Al meer dan vijf jaar werk ik als webontwikkelaar. Ik combineer technische kennis met een scherp oog voor design om websites te bouwen die zowel functioneel als visueel sterk zijn.",
+      "Ik werk het liefst met moderne technologieën zoals Next.js, React en TypeScript. Maar technologie is voor mij een middel, geen doel. Het gaat uiteindelijk om de oplossing die werkt voor jouw gebruikers én je bedrijf.",
+      "Naast mijn werk houd ik van wandelen, goede koffie en nieuwe dingen leren. Ik geloof in eerlijke communicatie, strakke deadlines en werk waar je trots op kunt zijn."
+    ],
+    "skills": {
+      "title": "Expertise",
+      "items": [
+        "Frontend development",
+        "UI/UX design",
+        "Performance optimalisatie",
+        "SEO",
+        "Responsive design",
+        "Toegankelijkheid"
+      ]
+    },
+    "cta": {
+      "title": "Zullen we kennismaken?",
+      "button": "Stuur een bericht"
+    }
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Heb je een vraag of wil je samenwerken? Neem gerust contact op.",
+    "form": {
+      "name": "Naam",
+      "namePlaceholder": "Jouw naam",
+      "email": "E-mail",
+      "emailPlaceholder": "jouw@email.nl",
+      "message": "Bericht",
+      "messagePlaceholder": "Vertel me over je project...",
+      "submit": "Verstuur bericht"
+    },
+    "success": {
+      "title": "Bedankt!",
+      "text": "Ik heb je bericht ontvangen en neem zo snel mogelijk contact met je op."
+    },
+    "info": {
+      "email": "E-mail",
+      "social": "Social"
+    }
+  },
+  "footer": {
+    "copyright": "© 2024 Martijn van Houten. Alle rechten voorbehouden.",
+    "madeWith": "Gebouwd met Next.js en liefde."
+  }
+}
