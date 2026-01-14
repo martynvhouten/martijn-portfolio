@@ -6,6 +6,7 @@
   "nav": {
     "home": "",
     "work": "",
+    "pricing": "",
     "about": "",
     "contact": ""
   },
@@ -106,5 +107,24 @@
   "footer": {
     "copyright": "",
     "madeWith": ""
+  },
+  "pricing": {
+    "title": "",
+    "subtitle": "",
+    "packages": [],
+    "custom": {
+      "title": "",
+      "description": "",
+      "cta": ""
+    },
+    "faq": {
+      "title": "",
+      "items": []
+    },
+    "cta": {
+      "title": "",
+      "text": "",
+      "button": ""
+    }
   }
 }

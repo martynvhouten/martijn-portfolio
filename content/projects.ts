@@ -11,9 +11,61 @@ export interface Project {
   solution: string;
   highlights: string[];
   images: { src: string; alt: string }[];
+  liveUrl?: string;
+  featured?: boolean;
 }
 
 export const projects: Project[] = [
+  {
+    slug: 'aa-belastingadviseurs',
+    title: 'AA Belastingadviseurs',
+    shortDescription: 'Professionele website voor een belastingadvieskantoor. Betrouwbare uitstraling met focus op conversie en vindbaarheid.',
+    tags: ['Webdesign', 'Development', 'SEO'],
+    role: 'Webontwikkelaar & Designer',
+    stack: ['WordPress', 'PHP', 'CSS', 'JavaScript'],
+    year: '2024',
+    period: '2024',
+    challenge: 'AA Belastingadviseurs had een verouderde website die hun professionaliteit niet goed uitstraalde. Ze wilden een moderne, betrouwbare online aanwezigheid die potentiële klanten overtuigt en makkelijk te beheren is.',
+    solution: 'Ik ontwierp en bouwde een strakke, professionele website met WordPress als fundament. De focus lag op duidelijke diensten, een overtuigende over-ons pagina en laagdrempelig contact. De site is volledig responsive en geoptimaliseerd voor lokale SEO.',
+    highlights: [
+      'Professionele, vertrouwenwekkende uitstraling',
+      'Eenvoudig zelf content beheren via WordPress',
+      'Geoptimaliseerd voor lokale zoekopdrachten',
+      'Snelle laadtijden en mobile-first design'
+    ],
+    images: [
+      { src: '/images/placeholder-project.jpg', alt: 'AA Belastingadviseurs homepage' },
+      { src: '/images/placeholder-project.jpg', alt: 'AA Belastingadviseurs diensten' },
+      { src: '/images/placeholder-project.jpg', alt: 'AA Belastingadviseurs contact' }
+    ],
+    liveUrl: 'https://aabelastingadviseurs.nl',
+    featured: true
+  },
+  {
+    slug: 'casa-mi-sueno',
+    title: 'Casa Mi Sueño',
+    shortDescription: 'Sfeervolle website voor een vakantiewoning in Spanje. Visueel aantrekkelijk met focus op boekingen en beleving.',
+    tags: ['Webdesign', 'Development'],
+    role: 'Webontwikkelaar & Designer',
+    stack: ['WordPress', 'PHP', 'CSS', 'JavaScript'],
+    year: '2024',
+    period: '2024',
+    challenge: 'Casa Mi Sueño is een prachtige vakantiewoning in Spanje die meer directe boekingen wilde aantrekken. De bestaande website deed geen recht aan de sfeer en kwaliteit van de accommodatie.',
+    solution: 'Ik creëerde een visueel rijke website die de Spaanse sfeer en luxe van de woning perfect overbrengt. Grote, sfeervolle beelden, duidelijke informatie over de omgeving en een eenvoudig boekingsproces zorgen voor een optimale gebruikerservaring.',
+    highlights: [
+      'Sfeervolle presentatie die de woning tot leven brengt',
+      'Duidelijke informatie over faciliteiten en omgeving',
+      'Makkelijk zelf foto\'s en tarieven aanpassen',
+      'Responsive design voor alle apparaten'
+    ],
+    images: [
+      { src: '/images/placeholder-project.jpg', alt: 'Casa Mi Sueño homepage' },
+      { src: '/images/placeholder-project.jpg', alt: 'Casa Mi Sueño galerij' },
+      { src: '/images/placeholder-project.jpg', alt: 'Casa Mi Sueño omgeving' }
+    ],
+    liveUrl: 'https://casamisueno.nl',
+    featured: true
+  },
   {
     slug: 'renovatie-nederland',
     title: 'Renovatie Nederland',
@@ -121,4 +173,9 @@ export function getAllTags(): string[] {
 // Helper function to get projects by tag
 export function getProjectsByTag(tag: string): Project[] {
   return projects.filter((project) => project.tags.includes(tag));
+}
+
+// Helper function to get featured projects
+export function getFeaturedProjects(): Project[] {
+  return projects.filter((project) => project.featured);
 }

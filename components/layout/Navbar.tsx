@@ -19,6 +19,7 @@ export function Navbar() {
   const navItems = [
     { name: translations.nav.home, href: '/' },
     { name: translations.nav.work, href: '/work' },
+    { name: translations.nav.pricing, href: '/tarieven' },
     { name: translations.nav.about, href: '/about' },
     { name: translations.nav.contact, href: '/contact' },
   ];
