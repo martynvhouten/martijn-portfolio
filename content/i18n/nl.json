@@ -159,14 +159,14 @@
     "packages": [
       {
         "name": "Starter",
-        "price": "Vanaf €1.500",
-        "description": "Perfect voor ondernemers die snel online willen met een professionele uitstraling.",
-        "timeline": "2-3 weken",
+        "price": "Vanaf €695",
+        "description": "Ideaal om snel online te gaan met een professionele, overzichtelijke website.",
+        "timeline": "1-2 weken",
         "features": [
-          "One-page website",
+          "One-page of eenvoudige website",
           "Responsive design",
           "Contactformulier",
-          "Basis SEO-optimalisatie",
+          "Basis SEO-instellingen",
           "Snelle laadtijden",
           "1 revisieronde"
         ],
@@ -174,34 +174,32 @@
       },
       {
         "name": "Groei",
-        "price": "Vanaf €3.500",
-        "description": "Voor bedrijven die willen groeien met een complete, schaalbare website.",
-        "timeline": "4-6 weken",
+        "price": "Vanaf €1.395",
+        "description": "Een complete website met meerdere pagina's en een stevige basis voor groei.",
+        "timeline": "2-3 weken",
         "features": [
-          "Multi-page website (tot 8 pagina's)",
-          "CMS voor zelfbeheer",
-          "Geavanceerde SEO",
-          "Formulieren & integraties",
-          "Analytics setup",
-          "2 revisierondes",
-          "1 maand support"
+          "4-6 pagina's",
+          "Duidelijke structuur en navigatie",
+          "Basis SEO-optimalisatie",
+          "Contactformulier",
+          "WordPress of statisch (naar wens)",
+          "2 revisierondes"
         ],
         "cta": "Bespreek mogelijkheden",
         "popular": true
       },
       {
         "name": "Premium",
-        "price": "Vanaf €6.000",
-        "description": "Maatwerkoplossingen voor ambitieuze projecten met specifieke eisen.",
-        "timeline": "6-10 weken",
+        "price": "€2.495+",
+        "description": "Voor projecten die net wat extra's nodig hebben: maatwerk, integraties of extra aandacht.",
+        "timeline": "3-5 weken",
         "features": [
-          "Volledig maatwerk",
-          "Complexe functionaliteiten",
-          "API-integraties",
-          "E-commerce of boekingssysteem",
+          "Custom secties en ontwerp",
+          "Lichte integraties (bijv. boekingstool)",
           "Performance optimalisatie",
-          "Onbeperkte revisies",
-          "3 maanden support"
+          "Extra revisierondes",
+          "SEO en analytics setup",
+          "2 weken support na oplevering"
         ],
         "cta": "Plan een gesprek"
       }
@@ -220,7 +218,7 @@
         },
         {
           "question": "Hoe lang duurt een project?",
-          "answer": "Dit hangt af van de complexiteit. Een Starter-project duurt gemiddeld 2-3 weken, een Groei-project 4-6 weken. Voor Premium-projecten maken we een planning op maat."
+          "answer": "Dit hangt af van de complexiteit. Een Starter-project duurt gemiddeld 1-2 weken, een Groei-project 2-3 weken. Voor Premium-projecten rekenen we 3-5 weken."
         },
         {
           "question": "Moet ik alles vooraf betalen?",
@@ -228,7 +226,7 @@
         },
         {
           "question": "Kan ik de website zelf aanpassen na oplevering?",
-          "answer": "Ja, bij het Groei- en Premium-pakket is een gebruiksvriendelijk CMS inbegrepen. Ik geef je een uitleg zodat je zelf content kunt beheren."
+          "answer": "Ja, als je kiest voor WordPress kun je eenvoudig zelf teksten en afbeeldingen aanpassen. Ik geef je een korte uitleg zodat je direct aan de slag kunt."
         },
         {
           "question": "Wat als ik later extra functionaliteiten wil?",
