@@ -5,6 +5,7 @@ import { ArrowLeft, ArrowRight, CheckCircle } from 'lucide-react';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import { SectionWrapper } from '@/components/SectionWrapper';
+import { WebsitePreview } from '@/components/WebsitePreview';
 import { projects, getProjectBySlug } from '@/content/projects';
 import { t } from '@/lib/i18n';
 
@@ -91,17 +92,21 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
         </div>
       </section>
 
-      {/* Hero Image Placeholder */}
+      {/* Website Preview or Hero Image Placeholder */}
       <section className="bg-surface-2 dark:bg-surface-1">
         <div className="mx-auto max-w-6xl px-4 pb-8 sm:px-6 lg:px-8">
-          <div className="relative aspect-[16/9] overflow-hidden rounded-2xl border border-border/30 bg-gradient-to-br from-accent-50 via-accent-100 to-accent-200 shadow-premium dark:from-accent-100/20 dark:via-accent-200/15 dark:to-accent-300/10 dark:border-border/20">
-            <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_20%,oklch(0.95_0.04_210/0.8),transparent_50%)]" />
-            <div className="absolute inset-0 flex items-center justify-center">
-              <span className="text-8xl font-bold text-accent-400/20 dark:text-accent-400/15">
-                {project.title.charAt(0)}
-              </span>
+          {project.liveUrl ? (
+            <WebsitePreview url={project.liveUrl} title={project.title} />
+          ) : (
+            <div className="relative aspect-[16/9] overflow-hidden rounded-2xl border border-border/30 bg-gradient-to-br from-accent-50 via-accent-100 to-accent-200 shadow-premium dark:from-accent-100/20 dark:via-accent-200/15 dark:to-accent-300/10 dark:border-border/20">
+              <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_20%,oklch(0.95_0.04_210/0.8),transparent_50%)]" />
+              <div className="absolute inset-0 flex items-center justify-center">
+                <span className="text-8xl font-bold text-accent-400/20 dark:text-accent-400/15">
+                  {project.title.charAt(0)}
+                </span>
+              </div>
             </div>
-          </div>
+          )}
         </div>
       </section>
 

@@ -23,6 +23,7 @@ const socialLinks = [
 const footerLinks = [
   { name: 'Home', href: '/' },
   { name: 'Werk', href: '/work' },
+  { name: 'Tarieven', href: '/tarieven' },
   { name: 'Over mij', href: '/about' },
   { name: 'Contact', href: '/contact' },
 ];

@@ -6,15 +6,16 @@
   "nav": {
     "home": "Home",
     "work": "Werk",
+    "pricing": "Tarieven",
     "about": "Over mij",
     "contact": "Contact"
   },
   "hero": {
-    "headline": "Websites die werken.",
-    "subtext": "Ik ontwerp en ontwikkel moderne, snelle websites die jouw doelen bereiken. Van eerste schets tot succesvolle lancering.",
+    "headline": "Jouw website. Jouw groei.",
+    "subtext": "Ik bouw websites die klanten aantrekken, vertrouwen wekken en resultaat leveren. Geen templates, maar maatwerk dat past bij jouw merk en ambities.",
     "cta": {
-      "primary": "Bekijk werk",
-      "secondary": "Neem contact op"
+      "primary": "Bekijk mijn werk",
+      "secondary": "Plan een gesprek"
     }
   },
   "selectedWork": {
@@ -23,63 +24,63 @@
     "viewAll": "Bekijk alle projecten"
   },
   "services": {
-    "title": "Wat ik doe",
-    "subtitle": "Van strategie tot uitvoering — ik help je bij elke stap.",
+    "title": "Wat ik voor je doe",
+    "subtitle": "Van strategie tot lancering — ik neem je het technische werk uit handen zodat jij je kunt focussen op je bedrijf.",
     "items": [
       {
         "title": "Webdesign",
-        "description": "Strak, modern ontwerp dat past bij jouw merk. Responsive en gebruiksvriendelijk."
+        "description": "Een ontwerp dat jouw verhaal vertelt en bezoekers overtuigt. Doordacht, modern en volledig responsive op elk apparaat."
       },
       {
         "title": "Webontwikkeling",
-        "description": "Technisch solide websites gebouwd met de nieuwste technologieën. Snel en schaalbaar."
+        "description": "Razendsnelle websites gebouwd met moderne technologie. Of het nu Next.js of WordPress is — ik kies de beste oplossing voor jouw situatie."
       },
       {
-        "title": "Optimalisatie",
-        "description": "SEO, performance en toegankelijkheid. Jouw website scoort hoog en laadt snel."
+        "title": "Groei & Optimalisatie",
+        "description": "SEO die je vindbaar maakt, laadtijden die bezoekers vasthouden, en analytics die je inzicht geven. Jouw website blijft presteren."
       }
     ]
   },
   "process": {
-    "title": "Werkwijze",
-    "subtitle": "Een helder proces van begin tot eind.",
+    "title": "Zo werken we samen",
+    "subtitle": "Een helder proces zonder verrassingen. Jij blijft altijd op de hoogte.",
     "steps": [
       {
         "number": "01",
         "title": "Kennismaking",
-        "description": "We bespreken jouw wensen, doelen en planning."
+        "description": "We bespreken je doelen, doelgroep en wensen. Ik geef je een eerlijk advies en heldere offerte."
       },
       {
         "number": "02",
-        "title": "Design",
-        "description": "Ik ontwerp een visueel concept op maat."
+        "title": "Ontwerp",
+        "description": "Ik maak een visueel ontwerp dat past bij jouw merk. Je geeft feedback, ik verfijn tot het perfect is."
       },
       {
         "number": "03",
-        "title": "Bouw",
-        "description": "Het ontwerp wordt omgezet naar een werkende website."
+        "title": "Ontwikkeling",
+        "description": "Je ontwerp wordt werkelijkheid. Met slimme tools en AI-ondersteunde workflows lever ik sneller zonder in te leveren op kwaliteit."
       },
       {
         "number": "04",
-        "title": "Livegang",
-        "description": "Testen, finetunen en live zetten. Klaar voor succes."
+        "title": "Lancering",
+        "description": "Grondig testen, feedback verwerken en live. Inclusief een korte training zodat je zelf aan de slag kunt."
       }
     ]
   },
   "techStack": {
     "title": "Technologie",
-    "subtitle": "Moderne tools voor moderne websites.",
-    "items": ["Next.js", "React", "TypeScript", "Tailwind CSS", "Node.js", "PostgreSQL", "Vercel", "Figma"]
+    "subtitle": "Ik kies de juiste tool voor elk project — van moderne frameworks tot beproefde CMS-oplossingen.",
+    "items": ["Next.js", "React", "TypeScript", "Tailwind CSS", "Node.js", "PostgreSQL", "WordPress", "Vercel", "Figma"]
   },
   "aboutTeaser": {
     "title": "Over mij",
-    "text": "Ik ben Martijn, een ervaren webontwikkelaar met een passie voor strak design en schone code. Ik help ondernemers en bedrijven met websites die niet alleen mooi zijn, maar ook resultaat opleveren.",
-    "cta": "Lees meer"
+    "text": "Ik ben Martijn, een webontwikkelaar die houdt van strak design en schone code. Met meer dan 5 jaar ervaring help ik ondernemers en bedrijven aan websites die niet alleen mooi zijn, maar ook écht resultaat opleveren. Ik werk met moderne tools én zet AI slim in om sneller te itereren en betere kwaliteit te leveren.",
+    "cta": "Meer over mij"
   },
   "contactCTA": {
-    "title": "Laten we samenwerken",
-    "text": "Heb je een project in gedachten? Ik hoor graag van je.",
-    "cta": "Neem contact op"
+    "title": "Klaar voor een website die werkt?",
+    "text": "Vertel me over je project. Ik denk graag vrijblijvend met je mee over de beste aanpak.",
+    "cta": "Start het gesprek"
   },
   "work": {
     "title": "Alle projecten",
@@ -107,9 +108,9 @@
     "title": "Over mij",
     "intro": "Hoi, ik ben Martijn.",
     "bio": [
-      "Al meer dan vijf jaar werk ik als webontwikkelaar. Ik combineer technische kennis met een scherp oog voor design om websites te bouwen die zowel functioneel als visueel sterk zijn.",
-      "Ik werk het liefst met moderne technologieën zoals Next.js, React en TypeScript. Maar technologie is voor mij een middel, geen doel. Het gaat uiteindelijk om de oplossing die werkt voor jouw gebruikers én je bedrijf.",
-      "Naast mijn werk houd ik van wandelen, goede koffie en nieuwe dingen leren. Ik geloof in eerlijke communicatie, strakke deadlines en werk waar je trots op kunt zijn."
+      "Al meer dan vijf jaar bouw ik websites voor ondernemers en bedrijven die online willen groeien. Ik combineer technische expertise met een scherp oog voor design om websites te maken die écht presteren.",
+      "Ik werk met moderne technologieën zoals Next.js en React, maar kies ook voor WordPress wanneer dat de beste oplossing is. Daarnaast zet ik AI-tools slim in om sneller te werken en betere resultaten te leveren — niet als vervanging, maar als versterking van mijn vakmanschap.",
+      "Ik geloof in eerlijke communicatie, haalbare deadlines en werk waar je trots op kunt zijn. Geen verborgen kosten, geen vage beloftes — gewoon een goede website die doet wat hij moet doen."
     ],
     "skills": {
       "title": "Expertise",
@@ -149,7 +150,96 @@
     }
   },
   "footer": {
-    "copyright": "© 2024 Martijn van Houten. Alle rechten voorbehouden.",
+    "copyright": "© 2025 Martijn van Houten. Alle rechten voorbehouden.",
     "madeWith": "Gebouwd met Next.js en liefde."
+  },
+  "pricing": {
+    "title": "Tarieven",
+    "subtitle": "Transparante prijzen voor elk type project. Kies het pakket dat past bij jouw ambitie.",
+    "packages": [
+      {
+        "name": "Starter",
+        "price": "Vanaf €495",
+        "description": "Snel online met een verzorgde, professionele website.",
+        "timeline": "1 week",
+        "features": [
+          "One-page website",
+          "Responsive design",
+          "Contactformulier",
+          "Snelle laadtijden"
+        ],
+        "cta": "Start je project"
+      },
+      {
+        "name": "Groei",
+        "price": "Vanaf €995",
+        "description": "Een complete website met meerdere pagina's en ruimte om te groeien.",
+        "timeline": "1–2 weken",
+        "features": [
+          "Tot 5 pagina's",
+          "Overzichtelijke structuur",
+          "Basis SEO-instellingen",
+          "Contactformulier",
+          "WordPress of statisch",
+          "1 revisieronde"
+        ],
+        "cta": "Bespreek mogelijkheden",
+        "popular": true
+      },
+      {
+        "name": "Premium",
+        "price": "€1.750+",
+        "description": "Extra aandacht voor ontwerp, snelheid en optionele integraties.",
+        "timeline": "2–4 weken",
+        "features": [
+          "Maatwerk design",
+          "Lichte integraties mogelijk",
+          "Performance optimalisatie",
+          "Meerdere revisierondes",
+          "SEO-basis en analytics",
+          "Korte support na oplevering"
+        ],
+        "cta": "Plan een gesprek"
+      }
+    ],
+    "custom": {
+      "title": "Maatwerk nodig?",
+      "description": "Heb je een project dat niet in een standaardpakket past? Geen probleem. Ik denk graag met je mee over een oplossing die perfect aansluit bij jouw wensen en budget.",
+      "cta": "Neem contact op"
+    },
+    "faq": {
+      "title": "Veelgestelde vragen",
+      "items": [
+        {
+          "question": "Wat is inbegrepen in de prijs?",
+          "answer": "Alle pakketten bevatten design, ontwikkeling, basis hosting-advies en een overdracht met uitleg. Je krijgt een volledig werkende website die klaar is voor lancering."
+        },
+        {
+          "question": "Hoe lang duurt een project?",
+          "answer": "Dit hangt af van de omvang. Een Starter-project is vaak binnen een week klaar, een Groei-project in 1–2 weken. Premium-projecten duren gemiddeld 2–4 weken."
+        },
+        {
+          "question": "Moet ik alles vooraf betalen?",
+          "answer": "Nee. Ik werk met een aanbetaling van 50% bij start en 50% bij oplevering. Zo is het voor ons allebei overzichtelijk."
+        },
+        {
+          "question": "Kan ik de website zelf aanpassen na oplevering?",
+          "answer": "Ja, als je kiest voor WordPress kun je eenvoudig zelf teksten en afbeeldingen aanpassen. Ik geef je een korte uitleg zodat je direct aan de slag kunt."
+        },
+        {
+          "question": "Wat als ik later extra functionaliteiten wil?",
+          "answer": "Geen probleem. We kunnen altijd uitbreiden. Ik geef je een eerlijke inschatting van de extra kosten en doorlooptijd."
+        },
+        {
+          "question": "Bied je ook onderhoud en hosting aan?",
+          "answer": "Ik kan je adviseren over de beste hosting voor jouw situatie. Optioneel bied ik ook een onderhoudscontract aan voor updates, backups en kleine aanpassingen."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Klaar om te beginnen?",
+      "text": "Laten we bespreken welk pakket het beste bij jouw project past.",
+      "button": "Neem contact op"
+    }
   }
 }
