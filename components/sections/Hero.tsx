@@ -40,13 +40,13 @@ export function Hero() {
           {/* CTAs */}
           <div className="animate-fade-in-up-delay-3 mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
             <Button asChild variant="glow" size="xl" className="min-w-[180px]">
-              <Link href="/work">
+              <Link href="/intake">
                 {translations.hero.cta.primary}
                 <ArrowRight className="ml-2 h-4 w-4" />
               </Link>
             </Button>
             <Button asChild variant="outline" size="xl" className="min-w-[180px]">
-              <Link href="/contact">
+              <Link href="/work">
                 {translations.hero.cta.secondary}
               </Link>
             </Button>
