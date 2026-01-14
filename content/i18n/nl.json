@@ -7,6 +7,7 @@
     "home": "Home",
     "work": "Werk",
     "pricing": "Tarieven",
+    "intake": "Aanvragen",
     "about": "Over mij",
     "contact": "Contact"
   },
@@ -14,8 +15,8 @@
     "headline": "Jouw website. Jouw groei.",
     "subtext": "Ik bouw websites die klanten aantrekken, vertrouwen wekken en resultaat leveren. Geen templates, maar maatwerk dat past bij jouw merk en ambities.",
     "cta": {
-      "primary": "Bekijk mijn werk",
-      "secondary": "Plan een gesprek"
+      "primary": "Website aanvragen",
+      "secondary": "Bekijk mijn werk"
     }
   },
   "selectedWork": {
@@ -168,7 +169,7 @@
           "Contactformulier",
           "Snelle laadtijden"
         ],
-        "cta": "Start je project"
+        "cta": "Website aanvragen"
       },
       {
         "name": "Groei",
@@ -183,7 +184,7 @@
           "WordPress of statisch",
           "1 revisieronde"
         ],
-        "cta": "Bespreek mogelijkheden",
+        "cta": "Website aanvragen",
         "popular": true
       },
       {
@@ -199,13 +200,13 @@
           "SEO-basis en analytics",
           "Korte support na oplevering"
         ],
-        "cta": "Plan een gesprek"
+        "cta": "Website aanvragen"
       }
     ],
     "custom": {
       "title": "Maatwerk nodig?",
       "description": "Heb je een project dat niet in een standaardpakket past? Geen probleem. Ik denk graag met je mee over een oplossing die perfect aansluit bij jouw wensen en budget.",
-      "cta": "Neem contact op"
+      "cta": "Aanvraag starten"
     },
     "faq": {
       "title": "Veelgestelde vragen",
@@ -239,7 +240,7 @@
     "cta": {
       "title": "Klaar om te beginnen?",
       "text": "Laten we bespreken welk pakket het beste bij jouw project past.",
-      "button": "Neem contact op"
+      "button": "Website aanvragen"
     }
   }
 }
