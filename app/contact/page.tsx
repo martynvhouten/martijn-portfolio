@@ -155,11 +155,11 @@ export default function ContactPage() {
                     {translations.contact.info.email}
                   </h3>
                   <a
-                    href="mailto:hello@martijnvanhouten.nl"
+                    href="mailto:hello@martijnvanhouten.com"
                     className="inline-flex items-center gap-2 font-medium transition-colors hover:text-primary"
                   >
                     <Mail className="h-5 w-5" />
-                    hello@martijnvanhouten.nl
+                    hello@martijnvanhouten.com
                   </a>
                 </div>
 

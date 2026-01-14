@@ -19,6 +19,7 @@ const geistMono = Geist_Mono({
 const translations = t();
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://martijnvanhouten.com'),
   title: {
     default: translations.meta.siteTitle,
     template: `%s | Martijn van Houten`,
@@ -38,7 +39,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'nl_NL',
-    url: 'https://martijnvanhouten.nl',
+    url: 'https://martijnvanhouten.com',
     siteName: 'Martijn van Houten',
     title: translations.meta.siteTitle,
     description: translations.meta.siteDescription,
