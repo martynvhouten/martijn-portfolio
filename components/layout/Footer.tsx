@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { Github, Linkedin, Mail } from 'lucide-react';
+import { Logo } from '@/components/Logo';
 import { t } from '@/lib/i18n';
 
 const socialLinks = [
@@ -38,17 +39,14 @@ export function Footer() {
       
       <div className="mx-auto max-w-6xl px-4 py-16 sm:px-6 lg:px-8">
         <div className="grid gap-12 md:grid-cols-3">
-          {/* Logo & Description */}
+          {/* Logo */}
           <div className="flex flex-col items-center md:items-start">
             <Link
               href="/"
-              className="text-xl font-semibold tracking-tight transition-colors hover:text-primary"
+              className="transition-opacity hover:opacity-80"
             >
-              Martijn<span className="text-primary">.</span>
+              <Logo variant="full" />
             </Link>
-            <p className="mt-3 text-sm text-muted-foreground max-w-xs text-center md:text-left">
-              {translations.footer.madeWith}
-            </p>
           </div>
 
           {/* Navigation Links */}
@@ -90,12 +88,9 @@ export function Footer() {
         </div>
 
         {/* Copyright */}
-        <div className="mt-12 flex flex-col items-center gap-4 border-t border-border/30 pt-8 sm:flex-row sm:justify-between">
+        <div className="mt-12 flex items-center justify-center border-t border-border/30 pt-8">
           <p className="text-sm text-muted-foreground/80">
             {translations.footer.copyright}
-          </p>
-          <p className="text-xs text-muted-foreground/60">
-            Ontworpen & gebouwd met precisie
           </p>
         </div>
       </div>

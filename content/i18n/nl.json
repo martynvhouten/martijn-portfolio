@@ -151,8 +151,7 @@
     }
   },
   "footer": {
-    "copyright": "© 2025 Martijn van Houten. Alle rechten voorbehouden.",
-    "madeWith": "Gebouwd met Next.js en liefde."
+    "copyright": "© 2025 Martijn van Houten. Alle rechten voorbehouden."
   },
   "pricing": {
     "title": "Tarieven",
