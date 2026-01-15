@@ -7,6 +7,7 @@ import { Menu, X, Moon, Sun } from 'lucide-react';
 import { useTheme } from 'next-themes';
 import { cn } from '@/lib/utils';
 import { Button } from '@/components/ui/button';
+import { Logo } from '@/components/Logo';
 import { t } from '@/lib/i18n';
 
 export function Navbar() {
@@ -46,9 +47,9 @@ export function Navbar() {
         {/* Logo */}
         <Link
           href="/"
-          className="text-xl font-semibold tracking-tight transition-colors hover:text-primary"
+          className="transition-opacity hover:opacity-80"
         >
-          Martijn<span className="text-primary">.</span>
+          <Logo variant="full" />
         </Link>
 
         {/* Desktop Navigation */}

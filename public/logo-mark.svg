@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" fill="none">
+  <!--
+    MH Monogram - Minimal geometric mark for Martijn van Houten
+    Clean lines with shared central stem between M and H.
+  -->
+  <g stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <!-- M: Left vertical -->
+    <path d="M4 32V8"/>
+    <!-- M: Left diagonal to peak -->
+    <path d="M4 8L14 20"/>
+    <!-- M: Peak to right diagonal (accent) -->
+    <path d="M14 20L24 8" stroke="#4B9ECC" class="logo-accent"/>
+    <!-- Shared stem M-right / H-left -->
+    <path d="M24 8V32"/>
+    <!-- H: Horizontal bar -->
+    <path d="M24 20H36"/>
+    <!-- H: Right vertical -->
+    <path d="M36 8V32"/>
+  </g>
+  <style>
+    @media (prefers-color-scheme: dark) {
+      .logo-accent { stroke: #8BC4E0; }
+    }
+    .dark .logo-accent { stroke: #8BC4E0; }
+  </style>
+</svg>

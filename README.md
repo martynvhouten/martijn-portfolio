@@ -122,6 +122,43 @@ export const projects: Project[] = [
 
 Pas de accent kleuren aan in `app/globals.css` onder de CSS variabelen.
 
+## Logo Assets
+
+De branding bestaat uit drie logo varianten:
+
+| Bestand | Beschrijving | Gebruik |
+|---------|--------------|---------|
+| `public/logo.svg` | Mark + wordmark gecombineerd | Hero, footer |
+| `public/logo-mark.svg` | MH monogram | Favicon, mobile nav, compact contexten |
+| `public/logo-wordmark.svg` | "Martijn van Houten" tekst | Standalone wordmark |
+
+### Logo component
+
+Gebruik de `Logo` component voor automatische theme-ondersteuning:
+
+```tsx
+import { Logo } from '@/components/Logo';
+
+// Volledig logo (mark + wordmark, responsive)
+<Logo variant="full" />
+
+// Alleen monogram
+<Logo variant="mark" />
+
+// Alleen wordmark
+<Logo variant="wordmark" />
+```
+
+### Varianten wisselen
+
+De `full` variant toont automatisch:
+- **Desktop**: Mark + wordmark naast elkaar
+- **Mobile**: Alleen de mark (voor compacte ruimte)
+
+### Kleuren aanpassen
+
+Het logo gebruikt `currentColor` voor de tekst en `stroke-primary` / `fill-primary` voor de baby-blue accent. De accent kleur volgt automatisch het light/dark theme.
+
 ## Deployment
 
 ### Vercel (aanbevolen)
