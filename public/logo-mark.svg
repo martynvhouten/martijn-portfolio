@@ -1,28 +1,24 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none">
   <!--
-    MH Monogram - Minimal geometric mark
-    Clean strokes with shared central stem.
+    MH Monogram - Geometric mark
+    M and H share a central vertical stem.
   -->
-  <style>
-    .stroke-main { stroke: currentColor; }
-    .stroke-accent { stroke: #4B9ECC; }
-    @media (prefers-color-scheme: dark) {
-      .stroke-accent { stroke: #8BC4E0; }
-    }
-    .dark .stroke-accent { stroke: #8BC4E0; }
-  </style>
-  <g stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none">
-    <!-- M left vertical -->
-    <path d="M4 26V6" class="stroke-main"/>
-    <!-- M left diagonal -->
-    <path d="M4 6L12 16" class="stroke-main"/>
-    <!-- M right diagonal (accent) -->
-    <path d="M12 16L20 6" class="stroke-accent"/>
-    <!-- Shared stem -->
-    <path d="M20 6V26" class="stroke-main"/>
-    <!-- H horizontal -->
-    <path d="M20 16H28" class="stroke-main"/>
-    <!-- H right vertical -->
-    <path d="M28 6V26" class="stroke-main"/>
+  <g stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <!-- M: left vertical -->
+    <path d="M4 26V6" stroke="currentColor"/>
+    <!-- M: left diagonal to peak -->
+    <path d="M4 6L12 16" stroke="currentColor"/>
+    <!-- M: right diagonal (accent) -->
+    <path d="M12 16L20 6" stroke="#4B9ECC" class="accent"/>
+    <!-- Shared vertical stem (M-right / H-left) -->
+    <path d="M20 6V26" stroke="currentColor"/>
+    <!-- H: horizontal bar -->
+    <path d="M20 16H28" stroke="currentColor"/>
+    <!-- H: right vertical -->
+    <path d="M28 6V26" stroke="currentColor"/>
   </g>
+  <style>
+    @media (prefers-color-scheme: dark) { .accent { stroke: #8BC4E0; } }
+    .dark .accent { stroke: #8BC4E0; }
+  </style>
 </svg>
