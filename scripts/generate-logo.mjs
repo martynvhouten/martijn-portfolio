@@ -6,8 +6,8 @@ import { fileURLToPath } from 'url';
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const rootDir = join(__dirname, '..');
 
-// Load Inter Medium font
-const fontPath = join(rootDir, 'node_modules/@fontsource/inter/files/inter-latin-500-normal.woff');
+// Load Plus Jakarta Sans Medium font
+const fontPath = join(rootDir, 'node_modules/@fontsource/plus-jakarta-sans/files/plus-jakarta-sans-latin-500-normal.woff');
 
 async function generateLogos() {
   console.log('Loading font from:', fontPath);
@@ -45,7 +45,7 @@ async function generateLogos() {
   const wordmarkSvg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${viewBoxWidth} ${viewBoxHeight}" fill="none">
   <!--
     Wordmark: Martijn van Houten
-    Font: Inter Medium (500)
+    Font: Plus Jakarta Sans Medium (500)
     Converted to vector paths for consistent rendering.
   -->
   <g transform="translate(${-bbox.x1 + padding}, ${yOffset})">
@@ -101,7 +101,7 @@ async function generateLogos() {
   const combinedSvg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${Math.ceil(combinedWidth)} ${markSize}" fill="none">
   <!--
     Combined Logo: MH Mark + Wordmark
-    Font: Inter Medium (500)
+    Font: Plus Jakarta Sans Medium (500)
     Lockup with proper optical spacing.
   -->
   
@@ -137,7 +137,7 @@ async function generateLogos() {
   writeFileSync(join(rootDir, 'public/logo.svg'), combinedSvg);
   console.log('Created: public/logo.svg');
   
-  console.log('\nDone! Logo files generated with Inter Medium font.');
+  console.log('\nDone! Logo files generated with Plus Jakarta Sans Medium font.');
   console.log(`Wordmark viewBox: 0 0 ${viewBoxWidth} ${viewBoxHeight}`);
   console.log(`Combined viewBox: 0 0 ${Math.ceil(combinedWidth)} ${markSize}`);
 }
