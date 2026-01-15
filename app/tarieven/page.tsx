@@ -118,7 +118,7 @@ export default function TarievenPage() {
                   size="lg"
                   className="w-full"
                 >
-                  <Link href="/contact">
+                  <Link href="/intake">
                     {pkg.cta}
                     <ArrowRight className="ml-2 h-4 w-4" />
                   </Link>
@@ -147,7 +147,7 @@ export default function TarievenPage() {
             </div>
             <div className="flex-shrink-0">
               <Button asChild variant="glow" size="xl">
-                <Link href="/contact">
+                <Link href="/intake">
                   {translations.pricing.custom.cta}
                   <ArrowRight className="ml-2 h-4 w-4" />
                 </Link>
@@ -196,7 +196,7 @@ export default function TarievenPage() {
           </p>
           <div className="mt-8">
             <Button asChild variant="glow" size="xl">
-              <Link href="/contact">
+              <Link href="/intake">
                 {translations.pricing.cta.button}
                 <ArrowRight className="ml-2 h-4 w-4" />
               </Link>
