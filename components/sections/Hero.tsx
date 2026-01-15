@@ -65,8 +65,8 @@ export function Hero() {
             </div>
             <div className="h-8 w-px bg-border" />
             <div className="flex flex-col items-center">
-              <span className="text-2xl font-bold text-foreground">&lt;2s</span>
-              <span>laadtijd gemiddeld</span>
+              <span className="text-2xl font-bold text-foreground">Snel</span>
+              <span>performance-first</span>
             </div>
           </div>
         </div>
