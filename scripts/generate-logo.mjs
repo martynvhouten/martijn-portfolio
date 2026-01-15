@@ -29,43 +29,33 @@ async function generateLogos() {
   
   console.log('Text dimensions:', { width: textWidth, height: textHeight, bbox });
 
-  // Dot placement: right after text with optical spacing
-  const dotRadius = 3.2;
-  const dotGap = 4; // Optical gap between last letter and dot
-  const dotX = bbox.x2 + dotGap + dotRadius;
-  const dotY = bbox.y2 - dotRadius; // Baseline aligned
-  
-  // ViewBox with padding
+  // ViewBox with padding (no dot - clean wordmark)
   const padding = 2;
-  const viewBoxWidth = Math.ceil(dotX + dotRadius + padding);
+  const viewBoxWidth = Math.ceil(textWidth + padding * 2);
   const viewBoxHeight = Math.ceil(textHeight + padding * 2 + 4);
   const yOffset = padding + 2; // Shift content down slightly
   
-  // Create wordmark SVG
+  // Create wordmark SVG (clean, no dot)
   const wordmarkSvg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${viewBoxWidth} ${viewBoxHeight}" fill="none">
   <!--
     Wordmark: Martijn van Houten
     Font: Plus Jakarta Sans Medium (500)
-    Converted to vector paths for consistent rendering.
+    Clean vector paths, no decorative elements.
   -->
   <g transform="translate(${-bbox.x1 + padding}, ${yOffset})">
     <path d="${pathData}" fill="currentColor"/>
-    <circle cx="${dotX.toFixed(1)}" cy="${dotY.toFixed(1)}" r="${dotRadius}" class="accent" fill="#4B9ECC"/>
   </g>
-  <style>
-    @media (prefers-color-scheme: dark) { .accent { fill: #8BC4E0; } }
-    .dark .accent { fill: #8BC4E0; }
-  </style>
 </svg>`;
 
-  // Monogram dimensions (refined)
+  // Monogram dimensions
   const markSize = 32;
   
-  // Create monogram SVG with cleaner proportions
+  // Create monogram SVG with accent diagonal
   const monogramSvg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${markSize} ${markSize}" fill="none">
   <!--
     MH Monogram - Geometric mark
     M and H share a central vertical stem.
+    Accent on the M's right diagonal.
   -->
   <g stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none">
     <!-- M: left vertical -->
@@ -92,8 +82,7 @@ async function generateLogos() {
   const markWidth = markSize;
   
   // Calculate combined dimensions
-  const wordmarkWidth = viewBoxWidth;
-  const combinedWidth = markWidth + gap + wordmarkWidth;
+  const combinedWidth = markWidth + gap + viewBoxWidth;
   
   // Vertical alignment: optically center the wordmark with the mark
   const wordmarkVerticalOffset = (markSize - viewBoxHeight) / 2;
@@ -102,7 +91,7 @@ async function generateLogos() {
   <!--
     Combined Logo: MH Mark + Wordmark
     Font: Plus Jakarta Sans Medium (500)
-    Lockup with proper optical spacing.
+    Clean lockup with proper optical spacing.
   -->
   
   <!-- Monogram -->
@@ -118,12 +107,11 @@ async function generateLogos() {
   <!-- Wordmark -->
   <g transform="translate(${markWidth + gap - bbox.x1 + padding}, ${wordmarkVerticalOffset + yOffset})">
     <path d="${pathData}" fill="currentColor"/>
-    <circle cx="${dotX.toFixed(1)}" cy="${dotY.toFixed(1)}" r="${dotRadius}" class="accent" fill="#4B9ECC"/>
   </g>
   
   <style>
-    @media (prefers-color-scheme: dark) { .accent { fill: #8BC4E0; stroke: #8BC4E0; } }
-    .dark .accent { fill: #8BC4E0; stroke: #8BC4E0; }
+    @media (prefers-color-scheme: dark) { .accent { stroke: #8BC4E0; } }
+    .dark .accent { stroke: #8BC4E0; }
   </style>
 </svg>`;
 

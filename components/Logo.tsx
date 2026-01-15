@@ -32,7 +32,7 @@ export function Logo({ variant = 'full', className }: LogoProps) {
   return <LogoFull className={className} />;
 }
 
-/** Geometric MH monogram */
+/** Geometric MH monogram with accent diagonal */
 function LogoMark({ className }: { className?: string }) {
   return (
     <svg
@@ -59,19 +59,18 @@ function LogoMark({ className }: { className?: string }) {
   );
 }
 
-/** Wordmark: Martijn van Houten (Plus Jakarta Sans Medium) */
+/** Wordmark: Martijn van Houten (Plus Jakarta Sans Medium, no dot) */
 function LogoWordmark({ className }: { className?: string }) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      viewBox="0 0 222 32"
+      viewBox="0 0 212 32"
       fill="none"
       className={cn('h-6', className)}
       aria-label="Martijn van Houten"
     >
       <g transform="translate(0, 4)">
         <path d={WORDMARK_PATH} fill="currentColor" />
-        <circle cx="216.8" cy="26.1" r="3.2" className="fill-primary" />
       </g>
     </svg>
   );
