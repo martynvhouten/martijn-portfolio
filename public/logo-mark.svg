@@ -1,26 +1,28 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" fill="none">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none">
   <!--
-    MH Monogram - Minimal geometric mark for Martijn van Houten
-    Clean lines with shared central stem between M and H.
+    MH Monogram - Minimal geometric mark
+    Clean strokes with shared central stem.
   -->
-  <g stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none">
-    <!-- M: Left vertical -->
-    <path d="M4 32V8"/>
-    <!-- M: Left diagonal to peak -->
-    <path d="M4 8L14 20"/>
-    <!-- M: Peak to right diagonal (accent) -->
-    <path d="M14 20L24 8" stroke="#4B9ECC" class="logo-accent"/>
-    <!-- Shared stem M-right / H-left -->
-    <path d="M24 8V32"/>
-    <!-- H: Horizontal bar -->
-    <path d="M24 20H36"/>
-    <!-- H: Right vertical -->
-    <path d="M36 8V32"/>
-  </g>
   <style>
+    .stroke-main { stroke: currentColor; }
+    .stroke-accent { stroke: #4B9ECC; }
     @media (prefers-color-scheme: dark) {
-      .logo-accent { stroke: #8BC4E0; }
+      .stroke-accent { stroke: #8BC4E0; }
     }
-    .dark .logo-accent { stroke: #8BC4E0; }
+    .dark .stroke-accent { stroke: #8BC4E0; }
   </style>
+  <g stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <!-- M left vertical -->
+    <path d="M4 26V6" class="stroke-main"/>
+    <!-- M left diagonal -->
+    <path d="M4 6L12 16" class="stroke-main"/>
+    <!-- M right diagonal (accent) -->
+    <path d="M12 16L20 6" class="stroke-accent"/>
+    <!-- Shared stem -->
+    <path d="M20 6V26" class="stroke-main"/>
+    <!-- H horizontal -->
+    <path d="M20 16H28" class="stroke-main"/>
+    <!-- H right vertical -->
+    <path d="M28 6V26" class="stroke-main"/>
+  </g>
 </svg>
