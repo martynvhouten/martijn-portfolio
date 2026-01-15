@@ -45,7 +45,7 @@ export default function ContactPage() {
         <div className="mx-auto max-w-3xl text-center">
           <Badge variant="glass" className="mb-6 px-4 py-1.5">
             <span className="mr-2 inline-block h-2 w-2 rounded-full bg-green-500 animate-pulse" />
-            Beschikbaar voor nieuwe projecten
+            Open voor nieuwe projecten
           </Badge>
           <h1 className="text-4xl font-bold tracking-tight sm:text-5xl">
             {translations.contact.title}
@@ -80,7 +80,7 @@ export default function ContactPage() {
                     size="lg"
                     onClick={() => setIsSubmitted(false)}
                   >
-                    Nog een bericht sturen
+                    Nieuw bericht sturen
                   </Button>
                 </div>
               ) : (
@@ -142,7 +142,7 @@ export default function ContactPage() {
                         className="min-h-[160px] resize-none rounded-xl border-border/50 bg-background transition-all focus:border-primary focus:ring-2 focus:ring-primary/20"
                       />
                       <p className="mt-2 text-xs text-muted-foreground">
-                        Beschrijf kort je project, budget en timeline.
+                        Beschrijf kort wat je nodig hebt. Ik neem contact op voor de details.
                       </p>
                     </div>
                   </div>
@@ -217,12 +217,12 @@ export default function ContactPage() {
                     <div className="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-full bg-accent-200/50 text-primary dark:bg-accent-300/20">
                       <Clock className="h-4 w-4" />
                     </div>
-                    <div>
-                      <h3 className="font-medium">Snelle reactie</h3>
-                      <p className="mt-1 text-sm text-muted-foreground">
-                        Ik reageer normaal gesproken binnen 24 uur op werkdagen.
-                      </p>
-                    </div>
+                                <div>
+                                      <h3 className="font-medium">Reactie binnen 24 uur</h3>
+                                      <p className="mt-1 text-sm text-muted-foreground">
+                                        Op werkdagen reageer ik dezelfde dag. Meestal sneller.
+                                      </p>
+                                    </div>
                   </div>
                 </div>
               </div>

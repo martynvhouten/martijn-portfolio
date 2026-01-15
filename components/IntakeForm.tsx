@@ -132,10 +132,9 @@ export function IntakeForm() {
   if (submitted) {
     return (
       <div className="rounded-2xl border border-border/30 bg-card p-8 text-center shadow-sm dark:border-border/20">
-        <h2 className="text-2xl font-bold tracking-tight">Bedankt voor je aanvraag</h2>
+        <h2 className="text-2xl font-bold tracking-tight">Aanvraag ontvangen</h2>
         <p className="mt-3 text-muted-foreground">
-          Ik heb je aanvraag ontvangen. Je krijgt binnen 24 uur reactie met een
-          korte terugkoppeling en de volgende stappen.
+          Ik neem binnen 24 uur contact met je op met een terugkoppeling en volgende stappen.
         </p>
         <div className="mt-6">
           <Button asChild variant="outline">
@@ -157,7 +156,7 @@ export function IntakeForm() {
             onBlur={() => setTouched((prev) => ({ ...prev, name: true }))}
             aria-invalid={Boolean(validationErrors.name)}
             className="mt-2"
-            placeholder="Je naam"
+            placeholder="Jouw naam"
           />
           {shouldShowError('name') && validationErrors.name && (
             <p className="mt-2 text-xs text-destructive">{validationErrors.name}</p>
@@ -269,14 +268,14 @@ export function IntakeForm() {
       </div>
 
       <div>
-        <label className="text-sm font-medium">Bericht *</label>
+        <label className="text-sm font-medium">Vertel meer over je project *</label>
         <Textarea
           value={form.message}
           onChange={(event) => handleChange('message', event.target.value)}
           onBlur={() => setTouched((prev) => ({ ...prev, message: true }))}
           aria-invalid={Boolean(validationErrors.message)}
           className="mt-2 min-h-[140px]"
-          placeholder="Vertel kort over je project en je wensen."
+          placeholder="Wat wil je bereiken? Welke stijl spreekt je aan? Zijn er voorbeeldsites?"
         />
         {shouldShowError('message') && validationErrors.message && (
           <p className="mt-2 text-xs text-destructive">{validationErrors.message}</p>
@@ -308,10 +307,10 @@ export function IntakeForm() {
           size="lg"
           disabled={!isFormValid || isSubmitting}
         >
-          {isSubmitting ? 'Versturen...' : 'Website aanvragen'}
+          {isSubmitting ? 'Versturen...' : 'Verstuur aanvraag'}
         </Button>
         <p className="text-xs text-muted-foreground">
-          Binnen 24 uur reactie.
+          Reactie binnen 24 uur op werkdagen.
         </p>
       </div>
     </form>

@@ -45,7 +45,7 @@ export default function WorkPage() {
         <div className="mt-8 text-center">
           <p className="text-sm text-muted-foreground">
             <span className="font-medium text-foreground">{filteredProjects.length}</span>
-            {' '}project{filteredProjects.length !== 1 ? 'en' : ''} gevonden
+            {' '}project{filteredProjects.length !== 1 ? 'en' : ''}
           </p>
         </div>
       </SectionWrapper>
@@ -66,7 +66,7 @@ export default function WorkPage() {
               </div>
               <p className="text-lg font-medium">{translations.work.noResults}</p>
               <p className="mt-2 text-sm text-muted-foreground">
-                Probeer een andere filter of bekijk alle projecten.
+                Probeer een andere filter.
               </p>
             </div>
           </div>

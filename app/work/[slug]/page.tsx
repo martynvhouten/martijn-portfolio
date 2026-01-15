@@ -153,7 +153,7 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
             {/* Challenge */}
             <div className="mb-12">
               <span className="text-sm font-medium uppercase tracking-wider text-primary">
-                Uitdaging
+                De vraag
               </span>
               <h2 className="mt-2 text-2xl font-bold tracking-tight">
                 {translations.project.challenge}
@@ -166,7 +166,7 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
             {/* Solution */}
             <div className="mb-12">
               <span className="text-sm font-medium uppercase tracking-wider text-primary">
-                Aanpak
+                De oplossing
               </span>
               <h2 className="mt-2 text-2xl font-bold tracking-tight">
                 {translations.project.solution}
@@ -179,7 +179,7 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
             {/* Highlights as result cards */}
             <div>
               <span className="text-sm font-medium uppercase tracking-wider text-primary">
-                Resultaten
+                Het resultaat
               </span>
               <h2 className="mt-2 text-2xl font-bold tracking-tight">
                 {translations.project.highlights}
@@ -243,7 +243,7 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
             </div>
             <Button asChild variant="outline" size="lg">
               <Link href={`/work/${nextProject.slug}`}>
-                Bekijken
+                Bekijk project
                 <ArrowRight className="ml-2 h-4 w-4" />
               </Link>
             </Button>
