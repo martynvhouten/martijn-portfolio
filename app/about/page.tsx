@@ -96,15 +96,15 @@ export default function AboutPage() {
               Werkwijze
             </span>
             <h2 className="mt-3 text-3xl font-bold tracking-tight">
-              Waar ik in geloof
+              Hoe ik werk
             </h2>
           </div>
           
           <div className="grid gap-6 sm:grid-cols-3">
             {[
-              { title: 'Kwaliteit', description: 'Geen compromissen. Elk detail telt.' },
-              { title: 'Communicatie', description: 'Helder, eerlijk en direct.' },
-              { title: 'Resultaat', description: 'Websites die écht werken.' },
+              { title: 'Geen half werk', description: 'Elk project wordt opgeleverd zoals afgesproken. Doorgetest, geoptimaliseerd, klaar.' },
+              { title: 'Directe lijnen', description: 'Je praat met mij, niet met een projectmanager. Snelle reacties, geen gedoe.' },
+              { title: 'Gebouwd voor jaren', description: 'Schone code, moderne techniek. Je site blijft snel en veilig.' },
             ].map((value, index) => (
               <div key={value.title} className="text-center">
                 <div className="mx-auto mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-gradient-to-br from-accent-100 to-accent-200/50 text-xl font-bold text-primary dark:from-accent-200/30 dark:to-accent-300/20">
@@ -129,7 +129,7 @@ export default function AboutPage() {
             {translations.about.cta.title}
           </h2>
           <p className="mt-4 text-lg text-muted-foreground">
-            Laten we kennismaken en bespreken hoe ik jou kan helpen.
+            Vertel me over je project. Ik denk graag mee.
           </p>
           <div className="mt-8">
             <Button asChild variant="glow" size="xl">

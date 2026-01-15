@@ -3,13 +3,13 @@ import { SectionWrapper } from '@/components/SectionWrapper';
 import { IntakeForm } from '@/components/IntakeForm';
 
 export const metadata: Metadata = {
-  title: 'Website aanvragen',
+  title: 'Project aanvragen',
   description:
-    'Vraag een website aan en ontvang binnen 24 uur reactie. Korte intake voor een helder voorstel.',
+    'Start je project. Vul het formulier in en ontvang binnen 24 uur een reactie met volgende stappen.',
   openGraph: {
-    title: 'Website aanvragen | Martijn van Houten',
+    title: 'Project aanvragen | Martijn van Houten',
     description:
-      'Vraag een website aan en ontvang binnen 24 uur reactie. Korte intake voor een helder voorstel.',
+      'Start je project. Vul het formulier in en ontvang binnen 24 uur een reactie met volgende stappen.',
   },
 };
 
@@ -19,14 +19,13 @@ export default function IntakePage() {
       <SectionWrapper size="default" className="pb-8 pt-16">
         <div className="mx-auto max-w-3xl text-center">
           <span className="text-sm font-medium uppercase tracking-wider text-primary">
-            Intake
+            Start hier
           </span>
           <h1 className="mt-3 text-4xl font-bold tracking-tight sm:text-5xl">
-            Website aanvragen
+            Project aanvragen
           </h1>
           <p className="mt-4 text-lg text-muted-foreground">
-            Voor ondernemers en bedrijven die een professionele website willen
-            met duidelijke doelen. Binnen 24 uur reactie.
+            Vul het formulier in en ik neem binnen 24 uur contact met je op. Geen verplichtingen, wel een helder voorstel.
           </p>
         </div>
       </SectionWrapper>

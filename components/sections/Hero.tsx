@@ -23,7 +23,7 @@ export function Hero() {
           <div className="animate-fade-in-up mb-8">
             <Badge variant="glass" className="px-4 py-1.5 text-sm font-medium">
               <span className="mr-2 inline-block h-2 w-2 rounded-full bg-green-500 animate-pulse" />
-              Beschikbaar voor projecten
+              Beschikbaar voor nieuwe projecten
             </Badge>
           </div>
           
@@ -55,18 +55,18 @@ export function Hero() {
           {/* Social proof */}
           <div className="animate-fade-in-up-delay-3 mt-16 flex flex-wrap items-center justify-center gap-8 text-sm text-muted-foreground">
             <div className="flex flex-col items-center">
-              <span className="text-2xl font-bold text-foreground">5+</span>
-              <span>Jaar ervaring</span>
+              <span className="text-2xl font-bold text-foreground">5+ jaar</span>
+              <span>ervaring</span>
             </div>
             <div className="h-8 w-px bg-border" />
             <div className="flex flex-col items-center">
               <span className="text-2xl font-bold text-foreground">30+</span>
-              <span>Projecten</span>
+              <span>opgeleverde sites</span>
             </div>
             <div className="h-8 w-px bg-border" />
             <div className="flex flex-col items-center">
-              <span className="text-2xl font-bold text-foreground">100%</span>
-              <span>Tevreden klanten</span>
+              <span className="text-2xl font-bold text-foreground">Snel</span>
+              <span>performance-first</span>
             </div>
           </div>
         </div>
